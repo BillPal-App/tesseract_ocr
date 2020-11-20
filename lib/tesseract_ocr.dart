@@ -30,7 +30,7 @@ class TesseractOcr {
     if (!await Directory(tessdataDirectory).exists()) {
       await Directory(tessdataDirectory).create();
     }
-    await _copyTessDataToAppDocumentsDirectory(tessdataDirectory);
+//     await _copyTessDataToAppDocumentsDirectory(tessdataDirectory);
     return appDirectory.path;
   }
 
